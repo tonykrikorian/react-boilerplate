@@ -13,7 +13,7 @@ Esta plantilla para proyectos ReactJS esta basada en el boilerplate de facebook 
 5. react-redux: Permite conectar componentes react al store de redux
 6. Axios: Permite hacer HTTP Request Asyncronos al server
 7. prettier: Sirve para formatear el codigo
-
+8. react-router-dom: Enrutamiento basado en componentes
 ## Available Scripts
 
 In the project directory, you can run:
