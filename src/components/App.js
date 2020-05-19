@@ -6,7 +6,9 @@ import MainContainer from '../containers/MainContainer';
 function App() {
   return (
     <BrowserRouter>
-      <Route exact path='/' component={MainContainer} />
+      <Switch>
+        <Route exact path='/' component={MainContainer} />
+      </Switch>
     </BrowserRouter>
   );
 }
