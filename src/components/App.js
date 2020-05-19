@@ -1,13 +1,12 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import mainContainer from '../containers/MainContainer';
+import MainContainer from '../containers/MainContainer';
+
 
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route exact path='/' render={() => { < mainContainer /> }} />
-      </Switch>
+      <Route exact path='/' component={MainContainer} />
     </BrowserRouter>
   );
 }
